@@ -2,6 +2,8 @@
 
 This is my first project with React to get to know this technology and test its functionalities.
 
+[Link of the project documentation in Notion](https://lruizap.notion.site/React-d6dd3ddbe26444bb9e6e18b66f07d21e)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
