@@ -1,11 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Post } from "./components/Posts";
+import { Counter } from "./components/Counter";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <>
-    <Post />
+    <Counter />
   </>
 );
