@@ -1,7 +1,12 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 export function Counter() {
   const [message, setMessage] = useState("");
+  const [counter, setCounter] = useState(0);
+
+  useEffect(() => {
+    console.log("render");
+  }, [counter]);
 
   return (
     <div>
@@ -12,6 +17,16 @@ export function Counter() {
         }}
       >
         Save
+      </button>
+      <hr></hr>
+
+      <h1>Counter {counter}</h1>
+      <button
+        onClick={() => {
+          setCounter(counter + 1);
+        }}
+      >
+        Incrementar
       </button>
     </div>
   );
